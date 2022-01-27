@@ -146,13 +146,9 @@ Main{
 }
 
 .onderwerp-items, .pagina-image-div img{
-    width: 100px;
+    width: 1000px;
 }
 
-img.pagina-image {
-max-width: 20%;
-height: auto;
-}
 
 .onderwerp-items .items{
     display: grid;
