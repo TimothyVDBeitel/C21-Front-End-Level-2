@@ -13,18 +13,18 @@ html{
 }
 
 .wrapper{
-    background-color: white;
+    background-color: rgb(41, 40, 40);
     margin:0 auto;
     max-width: 125px;
 }
 
 header{
-    height: 90px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
+    box-shadow: 0 2px 8px rgba(38, 39, 38, 0.822);
     padding:0 40px;
     margin-bottom: 40px;
 }
@@ -65,7 +65,7 @@ li.social-items a{
 
 li.menu-item a:hover,
 li.social-items a:hover{
-    color: #281ead;
+    color: #8783b8;
 }
 
 
@@ -99,7 +99,7 @@ button{
     font-size: 16px;
     height:42px;
     color: #fff;
-    background-color: #ac79fd75;
+    background-color: #3b3737;
     padding: 0 20px;
     line-height: 42px;
     border: none;
@@ -108,7 +108,7 @@ button{
 a{
     font-family: 'Karla', sans-serif;
     font-size:14px;
-    color: #4042ca;
+    color: #5f8d63;
     line-height:1.4;
     text-decoration:none;
 }
@@ -146,7 +146,7 @@ Main{
 }
 
 .onderwerp-items, .pagina-image-div img{
-    width: 1000px;
+    width: 700px;
 }
 
 
@@ -154,12 +154,12 @@ Main{
     display: grid;
     grid-template-columns: auto 100px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #070606;
     margin-bottom: 15px;
 }
 
 .onderwerp-items .items:hover{
-    background-color: #eaeaea;
+    background-color: #4e4747;
     padding-left: 10px;
 }
 
@@ -171,5 +171,5 @@ Main{
 }
 
 body{
-    background-color: #d2c8fd;
-}
+    background-color: #503f3f46;
+} 
